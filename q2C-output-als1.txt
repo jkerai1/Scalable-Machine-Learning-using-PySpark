@@ -1,0 +1,275 @@
+2020-03-09 10:09:33 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-09 10:09:34 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-03-09 10:09:34 INFO  SparkContext:54 - Submitted application: COM6012 Assignment 1 - Q2C
+2020-03-09 10:09:34 INFO  SecurityManager:54 - Changing view acls to: acp19jk
+2020-03-09 10:09:34 INFO  SecurityManager:54 - Changing modify acls to: acp19jk
+2020-03-09 10:09:34 INFO  SecurityManager:54 - Changing view acls groups to:
+2020-03-09 10:09:34 INFO  SecurityManager:54 - Changing modify acls groups to:
+2020-03-09 10:09:34 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp19jk); groups with view permissions: Set(); users  with modify permissions: Set(acp19jk); groups with modify permissions: Set()
+2020-03-09 10:09:35 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35063.
+2020-03-09 10:09:35 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-03-09 10:09:35 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-03-09 10:09:35 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-03-09 10:09:35 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-03-09 10:09:35 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-75517b41-f445-4ebe-8085-6fe8ab869ac4
+2020-03-09 10:09:35 INFO  MemoryStore:54 - MemoryStore started with capacity 21.2 GB
+2020-03-09 10:09:35 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-03-09 10:09:35 INFO  log:192 - Logging initialized @3439ms
+2020-03-09 10:09:35 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-03-09 10:09:35 INFO  Server:419 - Started @3498ms
+2020-03-09 10:09:35 INFO  AbstractConnector:278 - Started ServerConnector@6f4d3854{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2020-03-09 10:09:35 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54719094{/jobs,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1dd3476c{/jobs/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2638f831{/jobs/job,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@32684b24{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35879222{/stages,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@549f0dd3{/stages/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4376a0f0{/stages/stage,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16750304{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6072501a{/stages/pool,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c5f97af{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@150e6a6b{/storage,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2bdd26ed{/storage/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59dd410c{/storage/rdd,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@492f4777{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2f14210b{/environment,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6dbc804a{/environment/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5eda79d0{/executors,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6dfd8983{/executors/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@636ff14e{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6a5893b9{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@674163db{/static,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@119b4a15{/,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e175836{/api,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@e82a69a{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b4484e{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-03-09 10:09:35 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node173.shef.ac.uk:4040
+2020-03-09 10:09:35 INFO  SparkContext:54 - Added file file:/home/acp19jk/q2C.py at file:/home/acp19jk/q2C.py with timestamp 1583748575728
+2020-03-09 10:09:35 INFO  Utils:54 - Copying /home/acp19jk/q2C.py to /tmp/spark-bd75c9f5-fd13-46df-85f4-6cd77a136d23/userFiles-5e31355e-6d25-4ee2-bc02-1cf6eb3d57ca/q2C.py
+2020-03-09 10:09:35 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-03-09 10:09:35 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34796.
+2020-03-09 10:09:35 INFO  NettyBlockTransferService:54 - Server created on sharc-node173.shef.ac.uk:34796
+2020-03-09 10:09:35 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-03-09 10:09:35 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 34796, None)
+2020-03-09 10:09:35 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node173.shef.ac.uk:34796 with 21.2 GB RAM, BlockManagerId(driver, sharc-node173.shef.ac.uk, 34796, None)
+2020-03-09 10:09:35 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 34796, None)
+2020-03-09 10:09:35 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node173.shef.ac.uk, 34796, None)
+2020-03-09 10:09:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea6d1e7{/metrics/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp19jk/spark-warehouse/').
+2020-03-09 10:09:36 INFO  SharedState:54 - Warehouse path is 'file:/home/acp19jk/spark-warehouse/'.
+2020-03-09 10:09:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@92bf2c6{/SQL,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48e0a375{/SQL/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e0d0a66{/SQL/execution,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3bb11a9d{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3ca097e0{/static/sql,null,AVAILABLE,@Spark}
+2020-03-09 10:09:36 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2020-03-09 10:12:24 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-03-09 10:12:24 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2020-03-09 10:12:24 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-03-09 10:12:24 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
++---+--------------------+
+| id|            features|
++---+--------------------+
+| 10|[0.81066275, -0.1...|
+| 20|[0.597621, -0.238...|
+| 30|[0.5298979, 0.582...|
+| 40|[0.3913574, 0.275...|
+| 50|[0.6015944, 0.210...|
+| 60|[0.6383997, -0.04...|
+| 70|[0.7315077, 0.273...|
+| 80|[0.7162797, 0.634...|
+| 90|[0.302648, 0.4106...|
+|100|[0.47092944, 0.00...|
+|110|[0.7043092, -0.26...|
+|120|[0.44176275, -0.3...|
+|130|[0.17156225, 0.58...|
+|140|[0.4757744, -0.56...|
+|150|[0.7829478, -0.24...|
+|160|[0.6110485, -0.28...|
+|170|[0.58132917, -0.1...|
+|180|[0.54168457, 0.00...|
+|190|[0.7588205, 0.910...|
+|200|[0.45240653, -0.1...|
++---+--------------------+
+only showing top 20 rows
+
++---+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|id |features                                                                                                                                                                                                  |
++---+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|10 |[0.8106627464294434,-0.1115434542298317,-0.3770870864391327,-0.24538663029670715,-0.016314435750246048,0.6543921828269958,0.26695066690444946,0.2116219401359558,-1.2003506422042847,0.28347915410995483] |
+|20 |[0.5976210236549377,-0.23826639354228973,-0.6556662917137146,0.22700852155685425,-0.006975124124437571,0.5771732330322266,0.01902739703655243,0.01729835756123066,-0.9812421202659607,0.39071595668792725]|
+|30 |[0.529897928237915,0.5820335745811462,0.06840460002422333,-0.17660431563854218,-0.16060428321361542,1.0557842254638672,0.06053333729505539,-0.35437530279159546,-1.2069638967514038,0.19538894295692444]  |
+|40 |[0.3913573920726776,0.2756846845149994,0.01412797998636961,-0.02619977295398712,0.09109126031398773,0.9889611601829529,0.009805959649384022,-0.4723939001560211,-1.441308856010437,-0.09151343256235123]  |
+|50 |[0.6015943884849548,0.21082566678524017,-0.08362375944852829,-0.4017411768436432,-0.020963802933692932,1.269849181175232,0.5380588173866272,0.11092280596494675,-1.331884503364563,0.4850878417491913]    |
++---+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+only showing top 5 rows
+
+predictions
++---+--------------------+----------+
+| id|            features|prediction|
++---+--------------------+----------+
+| 10|[0.81066274642944...|        17|
+| 20|[0.59762102365493...|         4|
+| 30|[0.52989792823791...|         1|
+| 40|[0.39135739207267...|         1|
+| 50|[0.60159438848495...|         6|
+| 60|[0.63839972019195...|        11|
+| 70|[0.73150771856307...|         2|
+| 80|[0.71627968549728...|         9|
+| 90|[0.30264800786972...|         1|
+|100|[0.47092944383621...|        17|
+|110|[0.70430922508239...|        17|
+|120|[0.44176274538040...|         0|
+|130|[0.17156225442886...|         7|
+|140|[0.47577440738677...|        21|
+|150|[0.78294777870178...|        11|
+|160|[0.61104851961135...|         4|
+|170|[0.58132916688919...|         4|
+|180|[0.54168456792831...|         2|
+|190|[0.75882047414779...|         9|
+|200|[0.45240652561187...|        21|
++---+--------------------+----------+
+only showing top 20 rows
+
+[1426, 2540, 1420, 1415, 2326, 1538, 3949, 1930, 982, 2878, 2567, 2817, 2738, 1170, 3085, 1411, 5723, 3034, 3521, 799, 2685, 1509, 1527, 2007, 4050]
+[24  6 16]
++-------+-----+--------------------+
+|movieId|tagId|           relevance|
++-------+-----+--------------------+
+|   7847|    1|0.027749999999999997|
+|   7847|    2|             0.03075|
+|   7847|    3| 0.07950000000000002|
+|   7847|    4| 0.06474999999999997|
+|   7847|    5| 0.13074999999999998|
+|   7847|    6|0.046999999999999986|
+|   7847|    7| 0.02200000000000002|
+|   7847|    8|             0.15875|
+|   7847|    9| 0.32225000000000004|
+|   7847|   10|0.035750000000000004|
+|   7847|   11| 0.07550000000000001|
+|   7847|   12| 0.15000000000000002|
+|   7847|   13|               0.542|
+|   7847|   14| 0.01824999999999999|
+|   7847|   15|0.006500000000000006|
+|   7847|   16| 0.04899999999999999|
+|   7847|   17|0.011749999999999983|
+|   7847|   18|               0.391|
+|   7847|   19| 0.11525000000000002|
+|   7847|   20| 0.06274999999999997|
++-------+-----+--------------------+
+only showing top 20 rows
+
++-----+------------+----------+------------------+
+|tagId|sum(movieId)|sum(tagId)|sum(relevance)    |
++-----+------------+----------+------------------+
+|148  |2826496     |5772      |2.6465000000000005|
+|463  |2826496     |18057     |2.8117500000000004|
+|471  |2826496     |18369     |4.0897499999999996|
+|496  |2826496     |19344     |5.00975           |
+|833  |2826496     |32487     |4.992500000000001 |
++-----+------------+----------+------------------+
+only showing top 5 rows
+
++-----+------------+----------+------------------+
+|tagId|sum(movieId)|sum(tagId)|    sum(relevance)|
++-----+------------+----------+------------------+
+|  742|     2826496|     28938|29.414749999999998|
+|  646|     2826496|     25194|19.526249999999994|
+|  270|     2826496|     10530|18.467749999999995|
+|  867|     2826496|     33813|           18.3655|
++-----+------------+----------+------------------+
+only showing top 4 rows
+
++-------+-----+--------------------+
+|movieId|tagId|           relevance|
++-------+-----+--------------------+
+|     29|    1|0.023249999999999993|
+|     29|    2|0.023249999999999993|
+|     29|    3|              0.1985|
+|     29|    4| 0.20500000000000002|
+|     29|    5| 0.10099999999999998|
+|     29|    6| 0.07250000000000001|
+|     29|    7| 0.05125000000000002|
+|     29|    8|             0.15575|
+|     29|    9| 0.05625000000000002|
+|     29|   10| 0.16199999999999998|
+|     29|   11|               0.062|
+|     29|   12| 0.05049999999999999|
+|     29|   13| 0.07624999999999998|
+|     29|   14|0.006249999999999978|
+|     29|   15|0.007000000000000006|
+|     29|   16|0.044499999999999984|
+|     29|   17|0.008000000000000007|
+|     29|   18|               0.643|
+|     29|   19| 0.10449999999999998|
+|     29|   20| 0.07924999999999999|
++-------+-----+--------------------+
+only showing top 20 rows
+
++-----+------------+----------+------------------+
+|tagId|sum(movieId)|sum(tagId)|sum(relevance)    |
++-----+------------+----------+------------------+
+|148  |99794317    |218004    |83.78275000000001 |
+|463  |99794317    |681999    |276.44149999999996|
+|471  |99794317    |693783    |364.17575000000016|
+|496  |99794317    |730608    |433.699           |
+|833  |99794317    |1227009   |260.54900000000015|
++-----+------------+----------+------------------+
+only showing top 5 rows
+
++-----+------------+----------+------------------+
+|tagId|sum(movieId)|sum(tagId)|    sum(relevance)|
++-----+------------+----------+------------------+
+|  742|    99794317|   1092966|1158.2847499999993|
+|  972|    99794317|   1431756|          925.8985|
+| 1104|    99794317|   1626192| 905.5442500000007|
+|  640|    99794317|    942720| 877.0897500000001|
++-----+------------+----------+------------------+
+only showing top 4 rows
+
++-------+-----+--------------------+
+|movieId|tagId|           relevance|
++-------+-----+--------------------+
+|   3506|    1| 0.05099999999999999|
+|   3506|    2|              0.0605|
+|   3506|    3| 0.04949999999999999|
+|   3506|    4| 0.09300000000000003|
+|   3506|    5| 0.13324999999999998|
+|   3506|    6|             0.09175|
+|   3506|    7| 0.10899999999999999|
+|   3506|    8|             0.67775|
+|   3506|    9|             0.21775|
+|   3506|   10| 0.03849999999999998|
+|   3506|   11| 0.02150000000000002|
+|   3506|   12| 0.03949999999999998|
+|   3506|   13| 0.33099999999999996|
+|   3506|   14|0.006500000000000006|
+|   3506|   15|0.003749999999999...|
+|   3506|   16|0.032999999999999974|
+|   3506|   17|0.014000000000000012|
+|   3506|   18|               0.247|
+|   3506|   19|              0.1835|
+|   3506|   20| 0.11249999999999999|
++-------+-----+--------------------+
+only showing top 20 rows
+
++-----+------------+----------+------------------+
+|tagId|sum(movieId)|sum(tagId)|sum(relevance)    |
++-----+------------+----------+------------------+
+|148  |51154598    |181300    |79.26324999999996 |
+|463  |51154598    |567175    |182.52050000000008|
+|471  |51154598    |576975    |218.06800000000013|
+|496  |51154598    |607600    |150.90150000000003|
+|833  |51154598    |1020425   |201.87399999999994|
++-----+------------+----------+------------------+
+only showing top 5 rows
+
++-----+------------+----------+-----------------+
+|tagId|sum(movieId)|sum(tagId)|   sum(relevance)|
++-----+------------+----------+-----------------+
+|  742|    51154598|    908950|945.4375000000005|
+|  646|    51154598|    791350|          705.206|
+|  468|    51154598|    573300|          655.896|
+|  452|    51154598|    553700|625.8879999999999|
++-----+------------+----------+-----------------+

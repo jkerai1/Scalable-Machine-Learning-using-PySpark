@@ -1,0 +1,235 @@
+2020-03-09 12:23:27 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-09 12:23:29 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-03-09 12:23:29 INFO  SparkContext:54 - Submitted application: COM6012 Assignment 1 - Q2C
+2020-03-09 12:23:29 INFO  SecurityManager:54 - Changing view acls to: acp19jk
+2020-03-09 12:23:29 INFO  SecurityManager:54 - Changing modify acls to: acp19jk
+2020-03-09 12:23:29 INFO  SecurityManager:54 - Changing view acls groups to:
+2020-03-09 12:23:29 INFO  SecurityManager:54 - Changing modify acls groups to:
+2020-03-09 12:23:29 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp19jk); groups with view permissions: Set(); users  with modify permissions: Set(acp19jk); groups with modify permissions: Set()
+2020-03-09 12:23:30 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 45643.
+2020-03-09 12:23:30 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-03-09 12:23:30 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-03-09 12:23:30 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-03-09 12:23:30 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-03-09 12:23:30 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-4cae3e7a-b6b7-45ea-905b-159606537c58
+2020-03-09 12:23:30 INFO  MemoryStore:54 - MemoryStore started with capacity 31.8 GB
+2020-03-09 12:23:30 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-03-09 12:23:30 INFO  log:192 - Logging initialized @4879ms
+2020-03-09 12:23:30 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-03-09 12:23:30 INFO  Server:419 - Started @4940ms
+2020-03-09 12:23:30 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-03-09 12:23:30 INFO  AbstractConnector:278 - Started ServerConnector@bf01aef{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2020-03-09 12:23:30 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4041.
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@793ef9a7{/jobs,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c31cab7{/jobs/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79d1d3eb{/jobs/job,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26c23d91{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64e43f8c{/stages,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@13dde670{/stages/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7cb4844b{/stages/stage,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7262d787{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2aac835c{/stages/pool,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9a57438{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@52bd175{/storage,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6111f0b8{/storage/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2f6929a5{/storage/rdd,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@dcf8cc4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56b45471{/environment,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@38ceea2f{/environment/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5e0cc892{/executors,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2fd4d63b{/executors/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5bb7086c{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14671ea7{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2c971ce1{/static,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36d342c{/,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1021bb95{/api,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1a44b66f{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@515dbaf5{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-03-09 12:23:30 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node173.shef.ac.uk:4041
+2020-03-09 12:23:30 INFO  SparkContext:54 - Added file file:/home/acp19jk/q2d-getTags.py at file:/home/acp19jk/q2d-getTags.py with timestamp 1583756610722
+2020-03-09 12:23:30 INFO  Utils:54 - Copying /home/acp19jk/q2d-getTags.py to /tmp/spark-f040c35a-3d83-4d03-80b8-b736df510a1a/userFiles-da740655-db13-4838-b98d-fe12d766103e/q2d-getTags.py
+2020-03-09 12:23:30 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-03-09 12:23:30 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44910.
+2020-03-09 12:23:30 INFO  NettyBlockTransferService:54 - Server created on sharc-node173.shef.ac.uk:44910
+2020-03-09 12:23:30 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-03-09 12:23:30 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 44910, None)
+2020-03-09 12:23:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node173.shef.ac.uk:44910 with 31.8 GB RAM, BlockManagerId(driver, sharc-node173.shef.ac.uk, 44910, None)
+2020-03-09 12:23:30 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 44910, None)
+2020-03-09 12:23:30 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node173.shef.ac.uk, 44910, None)
+2020-03-09 12:23:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@486fbd0d{/metrics/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp19jk/spark-warehouse/').
+2020-03-09 12:23:31 INFO  SharedState:54 - Warehouse path is 'file:/home/acp19jk/spark-warehouse/'.
+2020-03-09 12:23:31 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@68d4a857{/SQL,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2a624018{/SQL/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26fcea65{/SQL/execution,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@363c63f{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3ee62c5b{/static/sql,null,AVAILABLE,@Spark}
+2020-03-09 12:23:31 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
++-----+---------+
+|tagId|tag      |
++-----+---------+
+|270  |criterion|
++-----+---------+
+
+cluster2:
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------------+
+|tagId|tag         |
++-----+------------+
+|972  |storytelling|
++-----+------------+
+
++-----+-----+
+|tagId|tag  |
++-----+-----+
+|1104 |weird|
++-----+-----+
+
+cluster 3:
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
++-----+------------+
+|tagId|tag         |
++-----+------------+
+|468  |great ending|
++-----+------------+
+
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------------+
+|tagId|tag         |
++-----+------------+
+|972  |storytelling|
++-----+------------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
+cluster2:
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
++-----+-----------+
+|tagId|tag        |
++-----+-----------+
+|188  |catastrophe|
++-----+-----------+
+
+cluster 3:
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
++-----+-----+
+|tagId|tag  |
++-----+-----+
+|195  |chase|
++-----+-----+
+
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
++-----+----+
+|tagId|tag |
++-----+----+
+|445  |good|
++-----+----+
+
+cluster2:
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+-----------+
+|tagId|tag        |
++-----+-----------+
+|807  |predictable|
++-----+-----------+
+
++-----+------+
+|tagId|tag   |
++-----+------+
+|646  |mentor|
++-----+------+
+
+cluster 3:
++-----+---------+
+|tagId|tag      |
++-----+---------+
+|270  |criterion|
++-----+---------+
+
++-----+--------+
+|tagId|tag     |
++-----+--------+
+|742  |original|
++-----+--------+
+
++-----+-----+
+|tagId|tag  |
++-----+-----+
+|1008 |talky|
++-----+-----+
