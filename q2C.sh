@@ -2,7 +2,6 @@
 #$ -l h_rt=2:00:00  #time needed
 #$ -pe smp 8 #number of cores
 #$ -l rmem=16G #number of mem
-#$ -o Assignment_q2_2C.txt #This is where your output and errors are logged.
 #$ -j y # normal and error outputs into a single file (the file above)
 #$ -cwd # Run job from current directory
 
